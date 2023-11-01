@@ -1,0 +1,506 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  word-wrap: normal;
+  margin: 0;
+}
+.top-section {
+  background-image: url(Assets/img/hero-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* *********HEADER******* */
+/* #region */
+header {
+  margin-bottom: 15em;
+}
+.navbar {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+li {
+  display: inline-block;
+  margin-right: 4em;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 200ms ease-out 100ms;
+}
+li a:hover {
+  color: red;
+}
+.navbar .btn {
+  background-color: transparent;
+  border-radius: 6px;
+  border: 2px solid #dcdcdc;
+  color: #ffffff;
+  padding: 9px 35px;
+  transition: background-color 370ms;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+.navbar .btn:hover {
+  background-color: white;
+  color: #000000;
+}
+/* **********END OF HEADER******* */
+/* #endregion */
+
+/* HERO SECTION  */
+/* Herolanding */
+/* #region */
+.container {
+  width: 61%;
+  margin: auto;
+}
+.hero-section {
+  text-align: center;
+  white-space: nowrap;
+}
+.hero-section h1 {
+  color: white;
+  font-size: 4.5em;
+  margin-bottom: 1rem;
+  letter-spacing: 0.7rem;
+  font-weight: bold;
+}
+.hero-section h3 {
+  color: white;
+  font-size: 2em;
+  margin-top: 1rem;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+}
+/* #endregion */
+
+/* Destinations form */
+/* #region */
+.destinations-form {
+  width: 40%;
+  box-sizing: border-box;
+  margin: 0 auto 10em auto;
+  display: flex;
+}
+.destinations-form .input-line-destinations-form {
+  width: 100%;
+}
+
+.destinations-form .text-input-destinations-form {
+  width: 100%;
+  height: 3em;
+  padding: 0 0 0 30px;
+  border-radius: 5px;
+  height: 55px;
+  letter-spacing: 0.04em;
+  font-size: 1em;
+  margin: 0px;
+}
+
+.destinations-form .btn-destinations-form {
+  padding: 0 40px;
+  height: 59px;
+  letter-spacing: 0.04em;
+  font-size: 1em;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  transition: background-color 370ms;
+  margin: 0 0 0 -8px;
+  background-image: url(Assets/img/boat\ icon.png);
+  background-repeat: no-repeat;
+  background-size: 20px 40px;
+  background-position: 15px 6px;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+}
+.destinations-form .btn-destinations-form:hover {
+  background-color: rgb(19, 19, 153);
+}
+/* #endregion */
+
+/* statistics-counter-box */
+/* #region */
+.statistics-counter-rectangle {
+  display: flex;
+  background-color: white;
+  border: solid 1px;
+  border-radius: 10px;
+  margin: 6em auto;
+  padding: 30px 10px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.box {
+  text-align: center;
+  width: 25%;
+}
+.number {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+/* #endregion */
+/* END OF HERO SECTION  */
+
+/* Destinations section */
+/* #region */
+
+.destination_text {
+  text-align: center;
+  margin-bottom: 5em;
+}
+
+.destination_cards_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 4em;
+}
+.destination_cards {
+  position: relative;
+}
+.destination_cards :hover {
+  transform: scale(0.97);
+  transition: 200ms;
+}
+.quantity {
+  position: absolute;
+  border-radius: 5px;
+  background: #e7434e;
+  color: #ffffff;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  display: inline-block;
+  font-size: 16px;
+  left: 30px;
+  top: 30px;
+}
+.destination_cards_first_row {
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.destination_card1 {
+  width: 60%;
+}
+.destination_card2 {
+  width: 30%;
+}
+.destination_cards_second_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.destination_card3 {
+  width: 30%;
+}
+.destination_card4 {
+  width: 30%;
+}
+.destination_card5 {
+  width: 30%;
+}
+.destination_section_btn_contianer {
+  text-align: center;
+  margin-bottom: 5em;
+}
+.destination_section_btn {
+  padding: 1em 3em;
+}
+
+/* #endregion */
+
+/* Rent your boat section  */
+/* #region */
+.rent_your_boat_section {
+  background-image: url(Assets/img/rent-boat-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 5em;
+}
+
+.rent_your_boat_text {
+  text-align: center;
+  color: white;
+  margin-bottom: 5em;
+}
+.rent_your_boat_text h1 {
+  font-size: 70px;
+  margin: auto;
+}
+.rent_your_boat_text p {
+  font-size: 30px;
+}
+.rent_your_boat_btn_container {
+  text-align: center;
+}
+.rent_your_boat_btn {
+  padding: 0 40px;
+  height: 59px;
+  letter-spacing: 0.04em;
+  font-size: 1em;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  transition: background-color 370ms;
+  margin: 0 0 10em -8px;
+  background-repeat: no-repeat;
+  background-size: 20px 40px;
+  background-position: 15px 6px;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+}
+
+.rent_your_boat_btn:hover {
+  background-color: rgb(19, 19, 153);
+}
+/* #endregion */
+
+/* FEATURED BOATS section  */
+/* #region */
+.featured_boats_text_container {
+  text-align: center;
+  margin-bottom: 5em;
+}
+
+.featured_boats_cards {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5em;
+}
+.featured_boats_card {
+  position: relative;
+}
+.price {
+  position: absolute;
+  border-radius: 5px;
+  background: #e7434e;
+  color: #ffffff;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  display: inline-block;
+  font-size: 16px;
+  left: 30px;
+  top: 30px;
+}
+.featured_boats_cards_firstrow {
+  display: flex;
+  justify-content: space-between;
+}
+.featured_boats_cards_secondrow {
+  display: flex;
+  justify-content: space-between;
+}
+.featured_boats_card :hover {
+  transform: scale(0.97);
+  transition: 200ms;
+}
+
+.featured_boats_btn_contianer {
+  text-align: center;
+  margin-bottom: 5em;
+}
+.featured_boats_btn {
+  padding: 1em 3em;
+}
+/* #endregion */
+
+/* Footer  */
+/* #region */
+footer {
+  background-image: url(Assets/img/footer-pattern.png);
+  background-repeat: repeat-x;
+  background-color: #404040;
+}
+.footer_container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.footer_list {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  max-width: 20%;
+}
+.footer_list_form {
+  width: 40% !important;
+  box-sizing: border-box;
+  margin: 0 15em 5em 0;
+}
+.footer_subscribe_form {
+  white-space: nowrap;
+}
+.subscribe_form_inputline {
+  width: 100%;
+  height: 40px;
+  padding: 0 0 0 30px;
+  border-radius: 5px;
+  letter-spacing: 0.04em;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.footer_subscribe_form_btn {
+  padding: 0 40px;
+  height: 40px;
+  letter-spacing: 0.04em;
+  font-size: 15px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  transition: background-color 370ms;
+  margin: 0 0 0 -8px;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+}
+.footer_subscribe_form_btn:hover {
+  background-color: rgb(19, 19, 153);
+}
+.footer_list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer_list li {
+  margin-bottom: 0.8rem;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+/* #endregion */
+
+/* Media Queries */
+
+/* at media 1200 */
+@media (max-width: 1200px) {
+  .navbar {
+    white-space: nowrap;
+  }
+  .hero-section h1 {
+    font-size: 3em;
+  }
+  .hero-section h3 {
+    font-size: 1em;
+  }
+  .destination_cards_first_row {
+    display: block;
+  }
+  .destination_cards {
+    width: 100%;
+    display: block;
+  }
+  .featured_boats_cards_firstrow {
+    display: block;
+  }
+  .featured_boats_cards_secondrow {
+    display: block;
+  }
+  .featured_boats_card {
+    display: block;
+  }
+}
+/* at media 1000 */
+@media (max-width: 1000px) {
+  .footer_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_list {
+    max-width: 100%;
+  }
+  .footer_list li {
+    display: block;
+  }
+}
+/* at media 800px */
+@media (max-width: 800px) {
+  .navbar ul li {
+    margin-right: 1em;
+    font-size: 1em;
+  }
+  .hero-section h1 {
+    letter-spacing: 0.2rem;
+    font-size: 2em;
+  }
+  .hero-section h3 {
+    letter-spacing: 0.1rem;
+    font-size: 1em;
+  }
+  .destinations-form {
+    width: 50%;
+  }
+  .destination_card1 img {
+    max-width: 100%;
+  }
+  .featured_boats_card {
+    max-width: 100%;
+  }
+}
+
+/* at media 600px */
+@media (max-width: 600px) {
+  header {
+    margin-bottom: 3em;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    font-size: 1.5em;
+    text-align: center;
+    margin: auto;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar ul li {
+    margin-bottom: 2rem;
+  }
+  .navbar ul li .btn {
+    font-size: 0.5em;
+  }
+  .hero-section {
+    white-space: normal;
+    margin-left: 5em;
+  }
+
+  .destinations-form {
+    white-space: nowrap;
+    margin: 0;
+  }
+  .btn-destinations-form {
+    padding-right: 0px !important;
+    flex: 50%;
+  }
+  .text-input-destinations-form {
+    flex: 50%;
+  }
+}
+/* at media 350px */
+@media (max-width: 350px) {
+  .navbar {
+    margin-left: 2em;
+  }
+}
